@@ -7,7 +7,7 @@ const userInput=(props)=>{
     return(
     <input style={style} type="text" onChange={props.userChanged} 
     value={props.name}/>
-    )
+    );
 }
 
 export default userInput;
